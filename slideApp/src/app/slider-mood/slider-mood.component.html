@@ -1,0 +1,13 @@
+<div class="fixed-sn">
+    <div class="col-lg-10 ml-auto mr-auto">
+        <mdb-carousel [interval]="myInterval" [noWrap]="noWrapSlides" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
+          <mdb-slide *ngFor="let slide of slides; let index=index">
+            <img [src]="slide.image">
+            <div class="carousel-caption">
+              <h4>Slide {{index}}</h4>
+              <p>{{slide.text}}</p>
+            </div>
+          </mdb-slide>
+        </mdb-carousel>
+    </div>
+</div>
