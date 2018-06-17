@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SliderMoodComponent implements OnInit {
 
-    public myInterval: number = 3000;
+    public myInterval: number = 0;
     public activeSlideIndex: number = 0;
     public noWrapSlides:boolean = false;
 
@@ -16,10 +16,10 @@ export class SliderMoodComponent implements OnInit {
     }
 
     public slides:Array<Object> = [
-        {"image":"https://mdbootstrap.com/img/Photos/Slides/img%20(18).jpg",
-      "text":"tas ir kruto"},
-        {"image":"https://mdbootstrap.com/img/Photos/Slides/img%20(19).jpg",  "text":"pazud"},
-        {"image":"https://mdbootstrap.com/img/Photos/Slides/img%20(20).jpg",     "text":"lalalalal"},
+        {"image":"https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg",
+      "text":"Лия ты"},
+        {"image":"https://mdbootstrap.com/img/Photos/Others/img%20(41).jpg",  "text":"Самая обалденная, клевая, шикарная"},
+        {"image":"https://mdbootstrap.com/img/Photos/Others/img%20(49).jpg",     "text":"просто БОГИНЯ"},
     ];
 
   
